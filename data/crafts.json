@@ -1,0 +1,152 @@
+{
+  "paper": {
+    "material": "Scrap Paper / Newspapers",
+    "crafts": [
+      {
+        "title": "Origami Desk Organizer",
+        "image": "https://picsum.photos/id/119/400/300",
+        "difficulty": "Easy",
+        "time": "15 mins",
+        "steps": [
+          "Gather 4 sheets of square recycled paper.",
+          "Fold each corner to the center.",
+          "Fold the top and bottom edges to the center.",
+          "Open up the flaps into a 3D box.",
+          "Connect multiple boxes to form an organizer."
+        ]
+      }
+    ]
+  },
+  "plastic": {
+    "material": "Plastic Bottles/Containers",
+    "crafts": [
+      {
+        "title": "Self-Watering Planter",
+        "image": "https://picsum.photos/id/152/400/300",
+        "difficulty": "Easy",
+        "time": "10 mins",
+        "steps": [
+          "Cut a 2-liter plastic bottle in half.",
+          "Poke a small hole through the plastic cap.",
+          "Thread a cotton string through the cap hole to act as a wick.",
+          "Fill the bottom half with water, invert the top half into it.",
+          "Fill the top portion with soil and your plant!"
+        ]
+      }
+    ]
+  },
+  "bottle": {
+    "material": "Water Bottles",
+    "crafts": [
+      {
+        "title": "DIY Bottle Bird Feeder",
+        "image": "https://picsum.photos/id/237/400/300",
+        "difficulty": "Easy",
+        "time": "15 mins",
+        "steps": [
+          "Wash and dry a bottle completely.",
+          "Cut two holes near the bottom and slide a wooden dowel through.",
+          "Cut a slightly larger hole above the perch so seeds spill.",
+          "Fill with seed, hang from a tree!"
+        ]
+      }
+    ]
+  },
+  "watch": {
+    "material": "Old Watches",
+    "crafts": [
+      {
+        "title": "Steampunk Jewelry Piece",
+        "image": "https://picsum.photos/id/175/400/300",
+        "difficulty": "Hard",
+        "time": "1 hour",
+        "steps": [
+          "Carefully disassemble the back of the broken watch.",
+          "Mount the tiny brass gears onto a blank ring or necklace pendant.",
+          "Seal it with a clear resin to create custom, luxury steampunk jewelry."
+        ]
+      }
+    ]
+  },
+  "toothbrush": {
+    "material": "Used Toothbrushes",
+    "crafts": [
+      {
+        "title": "Precision Cleaning Tool",
+        "image": "https://picsum.photos/id/20/400/300",
+        "difficulty": "Easy",
+        "time": "5 mins",
+        "steps": [
+          "Boil your old toothbrush to completely sanitize it.",
+          "Hold the neck of the brush over a candle flame until soft.",
+          "Bend the head at a 90-degree angle. You now have a custom grout cleaning brush!"
+        ]
+      }
+    ]
+  },
+  "bag": {
+    "material": "Plastic Grocery Bags",
+    "crafts": [
+      {
+        "title": "Plarn (Plastic Yarn)",
+        "image": "https://picsum.photos/id/250/400/300",
+        "difficulty": "Medium",
+        "time": "30 mins",
+        "steps": [
+          "Cut off the handles and bottom seam of the plastic bag.",
+          "Cut the remaining tube into thick horizontal strips.",
+          "Loop the strips tightly into each other to form a giant continuous ball of 'Plarn'.",
+          "Crochet or knit this waterproof yarn into sleep mats or tote bags."
+        ]
+      }
+    ]
+  },
+  "sponge": {
+    "material": "Old Sponges",
+    "crafts": [
+      {
+        "title": "Ice Pack Swabs / Seed Starters",
+        "image": "https://picsum.photos/id/111/400/300",
+        "difficulty": "Easy",
+        "time": "2 mins",
+        "steps": [
+          "Soak an old clean sponge in water and place it in a ziplock bag in the freezer for a cheap lunchbox ice pack.",
+          "Alternatively, place seeds into the holes of a damp sponge to rapidly sprout seedlings before planting them."
+        ]
+      }
+    ]
+  },
+  "cup": {
+    "material": "Old Mugs and Cups",
+    "crafts": [
+      {
+        "title": "Succulent Teacup Gardens",
+        "image": "https://picsum.photos/id/43/400/300",
+        "difficulty": "Easy",
+        "time": "10 mins",
+        "steps": [
+          "Fill an old chipped mug or teacup with 1 inch of pebbles for drainage.",
+          "Fill with cactus soil and plant small succulent cuttings.",
+          "Decorate your windowsill instantly!"
+        ]
+      }
+    ]
+  },
+  "pen": {
+    "material": "Dead Ballpoint Pens",
+    "crafts": [
+      {
+        "title": "Plant Markers",
+        "image": "https://picsum.photos/id/114/400/300",
+        "difficulty": "Easy",
+        "time": "5 mins",
+        "steps": [
+          "Pull the ink tube out of the dead plastic pen.",
+          "Paint the empty plastic barrel a bright solid color.",
+          "Write the name of a plant on the side using a sharpie.",
+          "Stick the pen body straight into your garden soil to label your herbs!"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,373 @@
+{
+  "watch": {
+    "original_product": "Watch (Standard Battery/Metal)",
+    "why_not_buy": "Your current watch may still be fully functional. Consider replacing the battery rather than replacing it.",
+    "alternatives": [
+      {
+        "name": "Bamboo Minimalist Watch",
+        "type": "Budget Eco Swap",
+        "price_range": "Budget ($20 - $40)",
+        "base_price": 25,
+        "availability": [
+          {"store": "Amazon", "url": "https://www.amazon.com/s?k=bamboo+watch", "type": "online"},
+          {"store": "Local Eco Stores", "url": "#", "type": "local"}
+        ],
+        "eco_score": 85,
+        "eco_breakdown": { "Material": 30, "Reusability": 25, "Lifespan": 20, "Carbon Impact": 10 },
+        "why_eco": "Made from fast-growing, renewable bamboo.",
+        "impact": { "plastic_saved": "50g", "co2_reduction": "2kg per unit", "money_saved": "$10 long-term" },
+        "image": "static/images/bamboo_watch.png"
+      },
+      {
+        "name": "Solar Powered Watch",
+        "type": "Premium Eco Swap",
+        "price_range": "Premium ($100 - $300)",
+        "base_price": 150,
+        "availability": [
+          {"store": "Brand Website", "url": "https://www.solarwatch.com", "type": "online"},
+          {"store": "Amazon", "url": "https://www.amazon.com/s?k=solar+watch", "type": "online"}
+        ],
+        "eco_score": 95,
+        "eco_breakdown": { "Material": 25, "Reusability": 30, "Lifespan": 20, "Carbon Impact": 20 },
+        "why_eco": "Powered by light, never needs a toxic battery replacement.",
+        "impact": { "plastic_saved": "0g", "co2_reduction": "5kg per unit", "money_saved": "$40 long-term on batteries" },
+        "image": "static/images/solar_watch.png"
+      },
+      {
+        "name": "Upcycled Ocean Plastic Watch",
+        "type": "Mid-Range Swap",
+        "price_range": "Mid ($60 - $120)",
+        "base_price": 75,
+        "availability": [
+          {"store": "Amazon", "url": "https://www.amazon.com/s?k=upcycled+ocean+plastic+watch", "type": "online"},
+          {"store": "Brand Website", "url": "https://www.awatchtohelpoceans.org/buy", "type": "online"},
+          {"store": "Local Shops", "url": "#", "type": "local"}
+        ],
+        "eco_score": 90,
+        "eco_breakdown": { "Material": 30, "Reusability": 20, "Lifespan": 25, "Carbon Impact": 15 },
+        "why_eco": "Constructed completely out of recovered ocean plastics and fishing nets.",
+        "impact": { "plastic_saved": "250g", "co2_reduction": "3kg per unit", "money_saved": "$0" },
+        "image": "https://picsum.photos/id/175/400/300"
+      }
+    ]
+  },
+  "bottle": {
+    "original_product": "Plastic Water Bottle",
+    "why_not_buy": "If you already own a bottle, keep using it! The most eco-friendly product is the one you own.",
+    "alternatives": [
+      {
+        "name": "Premium Steel Vacuum Bottle",
+        "type": "Mid-range Swap",
+        "price_range": "Mid-range ($15 - $35)",
+        "base_price": 20,
+        "availability": [
+          {"store": "Amazon", "url": "https://www.amazon.com/s?k=stainless+steel+water+bottle", "type": "online"},
+          {"store": "Flipkart", "url": "https://www.flipkart.com/search?q=steel+flask", "type": "online"},
+          {"store": "Local Stores", "url": "#", "type": "local"}
+        ],
+        "eco_score": 92,
+        "eco_breakdown": { "Material": 25, "Reusability": 30, "Lifespan": 22, "Carbon Impact": 15 },
+        "why_eco": "Highly durable, fully recyclable material that lasts a lifetime.",
+        "impact": { "plastic_saved": "167 bottles/yr", "co2_reduction": "13.5kg per year", "money_saved": "$250 per year" },
+        "image": "static/images/steel_bottle.png"
+      },
+      {
+        "name": "Glass Flask with Silicone Sleeve",
+        "type": "Budget Eco Swap",
+        "price_range": "Budget ($10 - $25)",
+        "base_price": 12,
+        "availability": [
+          {"store": "Target", "url": "https://www.target.com/c/water-bottles", "type": "online"},
+          {"store": "Amazon", "url": "https://www.amazon.com/s?k=glass+water+bottle", "type": "online"}
+        ],
+        "eco_score": 88,
+        "eco_breakdown": { "Material": 25, "Reusability": 25, "Lifespan": 20, "Carbon Impact": 18 },
+        "why_eco": "Glass provides an exceptionally clean taste and zero chemical leaching forever.",
+        "impact": { "plastic_saved": "150 bottles/yr", "co2_reduction": "10kg per year", "money_saved": "$200 per year" },
+        "image": "https://picsum.photos/id/250/400/300"
+      }
+    ]
+  },
+  "toothbrush": {
+    "original_product": "Plastic Toothbrush",
+    "why_not_buy": "Only swap this once your current one completely wears out to respect resources.",
+    "alternatives": [
+      {
+        "name": "Biodegradable Bamboo Brush",
+        "type": "Budget Eco Swap",
+        "price_range": "Budget ($3 - $5)",
+        "base_price": 4,
+        "availability": [
+          {"store": "Amazon", "url": "https://www.amazon.com/s?k=bamboo+toothbrush", "type": "online"},
+          {"store": "Flipkart", "url": "https://www.flipkart.com/search?q=bamboo+toothbrush", "type": "online"},
+          {"store": "Local Pharmacies", "url": "#", "type": "local"}
+        ],
+        "eco_score": 98,
+        "eco_breakdown": { "Material": 30, "Reusability": 10, "Lifespan": 30, "Carbon Impact": 28 },
+        "why_eco": "Handle is fully compostable. Prevents heavy microplastics from entering oceans.",
+        "impact": { "plastic_saved": "20g per brush", "co2_reduction": "0.5kg per year", "money_saved": "$0" },
+        "image": "static/images/bamboo_toothbrush.png"
+      },
+      {
+        "name": "Natural Miswak Stick",
+        "type": "Ultra-Budget Swap",
+        "price_range": "Budget ($1 - $3)",
+        "base_price": 2,
+        "availability": [
+          {"store": "Amazon", "url": "https://www.amazon.com/s?k=miswak", "type": "online"},
+          {"store": "Specialty Stores", "url": "#", "type": "local"}
+        ],
+        "eco_score": 100,
+        "eco_breakdown": { "Material": 30, "Reusability": 20, "Lifespan": 20, "Carbon Impact": 30 },
+        "why_eco": "A completely natural, unprocessed twig with inherent antibacterial properties.",
+        "impact": { "plastic_saved": "20g per brush", "co2_reduction": "1kg per year", "money_saved": "$15 per year" },
+        "image": "https://picsum.photos/id/22/400/300"
+      }
+    ]
+  },
+  "bag": {
+    "original_product": "Single-Use Plastic Bag",
+    "why_not_buy": "Reusing any bag you currently own (even plastic) is better than buying specifically \"eco\" bags.",
+    "alternatives": [
+      {
+        "name": "Organic Cotton Tote",
+        "type": "Budget Eco Swap",
+        "price_range": "$5 - $15",
+        "base_price": 8,
+        "availability": [
+          {"store": "Amazon", "url": "https://www.amazon.com/s?k=organic+cotton+tote+bag", "type": "online"},
+          {"store": "Local Stores", "url": "#", "type": "local"}
+        ],
+        "eco_score": 85,
+        "eco_breakdown": { "Material": 25, "Reusability": 30, "Lifespan": 20, "Carbon Impact": 10 },
+        "why_eco": "Washable, durable, and biodegradable at the end of its life.",
+        "impact": { "plastic_saved": "500 bags/yr", "co2_reduction": "2kg per year", "money_saved": "$50/yr in bag fees" },
+        "image": "https://picsum.photos/id/103/400/300"
+      },
+      {
+        "name": "Recycled PET Mesh Produce Bags",
+        "type": "Budget Swap",
+        "price_range": "$10 - $20",
+        "base_price": 12,
+        "availability": [
+          {"store": "Amazon", "url": "https://www.amazon.com/s?k=mesh+produce+bags", "type": "online"}
+        ],
+        "eco_score": 90,
+        "eco_breakdown": { "Material": 20, "Reusability": 30, "Lifespan": 25, "Carbon Impact": 15 },
+        "why_eco": "Stops thousands of tiny plastic produce bags; made from old recycled bottles.",
+        "impact": { "plastic_saved": "300 bags/yr", "co2_reduction": "1kg/yr", "money_saved": "$0" },
+        "image": "https://picsum.photos/id/111/400/300"
+      }
+    ]
+  },
+  "cup": {
+    "original_product": "Paper or Plastic Coffee Cup",
+    "why_not_buy": "Use an old mug from home! There's no need to buy a fancy travel mug if you already have one.",
+    "alternatives": [
+      {
+        "name": "Insulated Travel Mug",
+        "type": "Mid-Range Eco Swap",
+        "price_range": "$20 - $35",
+        "base_price": 25,
+        "availability": [
+          {"store": "Amazon", "url": "https://www.amazon.com/s?k=insulated+travel+mug", "type": "online"},
+          {"store": "Local Coffee Shops", "url": "#", "type": "local"}
+        ],
+        "eco_score": 90,
+        "eco_breakdown": { "Material": 25, "Reusability": 30, "Lifespan": 25, "Carbon Impact": 10 },
+        "why_eco": "Eliminates daily lined paper cups which are largely unrecyclable.",
+        "impact": { "plastic_saved": "250 cups/yr", "co2_reduction": "15kg/yr", "money_saved": "$50/yr (cafe discounts)" },
+        "image": "https://picsum.photos/id/43/400/300"
+      }
+    ]
+  },
+  "straw": {
+    "original_product": "Single-Use Plastic Straw",
+    "why_not_buy": "Consider simply drinking from the rim of the glass! Straws are often completely unnecessary.",
+    "alternatives": [
+      {
+        "name": "Stainless Steel Straws",
+        "type": "Budget Eco Swap",
+        "price_range": "$5 - $10",
+        "base_price": 7,
+        "availability": [
+          {"store": "Amazon", "url": "https://www.amazon.com/s?k=stainless+steel+straw", "type": "online"},
+          {"store": "Local Kitchen Stores", "url": "#", "type": "local"}
+        ],
+        "eco_score": 95,
+        "eco_breakdown": { "Material": 25, "Reusability": 30, "Lifespan": 30, "Carbon Impact": 10 },
+        "why_eco": "Indestructible, endlessly reusable, entirely stops marine plastic pollution from straws.",
+        "impact": { "plastic_saved": "540 straws/yr", "co2_reduction": "0.5kg/yr", "money_saved": "$10/yr" },
+        "image": "https://picsum.photos/id/63/400/300"
+      }
+    ]
+  },
+  "wrap": {
+    "original_product": "Plastic Cling Film / Wrap",
+    "why_not_buy": "You can just put a plate over a bowl to store food in the fridge!",
+    "alternatives": [
+      {
+        "name": "Beeswax Wrap",
+        "type": "Mid-Range Eco Swap",
+        "price_range": "$15 - $25",
+        "base_price": 18,
+        "availability": [
+          {"store": "Amazon", "url": "https://www.amazon.com/s?k=beeswax+wrap", "type": "online"},
+          {"store": "Local Eco Stores", "url": "#", "type": "local"}
+        ],
+        "eco_score": 98,
+        "eco_breakdown": { "Material": 30, "Reusability": 25, "Lifespan": 18, "Carbon Impact": 25 },
+        "why_eco": "100% natural, washable, and completely compostable at the end of its life.",
+        "impact": { "plastic_saved": "5 rolls/yr", "co2_reduction": "2kg/yr", "money_saved": "$20/yr" },
+        "image": "https://picsum.photos/id/99/400/300"
+      },
+      {
+        "name": "Reusable Silicone Lids",
+        "type": "Budget Swap",
+        "price_range": "$10 - $20",
+        "base_price": 12,
+        "availability": [
+          {"store": "Amazon", "url": "https://www.amazon.com/s?k=silicone+stretch+lids", "type": "online"}
+        ],
+        "eco_score": 90,
+        "eco_breakdown": { "Material": 20, "Reusability": 30, "Lifespan": 25, "Carbon Impact": 15 },
+        "why_eco": "Stretch over any bowl preventing single-use plastic wrap completely.",
+        "impact": { "plastic_saved": "6 rolls/yr", "co2_reduction": "2.5kg/yr", "money_saved": "$25/yr" },
+        "image": "https://picsum.photos/id/112/400/300"
+      }
+    ]
+  },
+  "sponge": {
+    "original_product": "Synthetic Dish Sponge",
+    "why_not_buy": "Boiling or microwaving your current synthetic sponge kills bacteria to extend its life.",
+    "alternatives": [
+      {
+        "name": "Loofah Dish Sponge",
+        "type": "Budget Eco Swap",
+        "price_range": "$5 - $10",
+        "base_price": 6,
+        "availability": [
+          {"store": "Amazon", "url": "https://www.amazon.com/s?k=loofah+sponge", "type": "online"},
+          {"store": "Local Stores", "url": "#", "type": "local"}
+        ],
+        "eco_score": 100,
+        "eco_breakdown": { "Material": 30, "Reusability": 20, "Lifespan": 20, "Carbon Impact": 30 },
+        "why_eco": "A literal dried gourd plant! Emits zero microplastics and is perfectly compostable.",
+        "impact": { "plastic_saved": "12 synthetic sponges", "co2_reduction": "0.5kg/yr", "money_saved": "$10/yr" },
+        "image": "https://picsum.photos/id/292/400/300"
+      },
+      {
+        "name": "Wooden Dish Brush",
+        "type": "Mid-Range Swap",
+        "price_range": "$8 - $15",
+        "base_price": 10,
+        "availability": [
+          {"store": "Amazon", "url": "https://www.amazon.com/s?k=wooden+dish+brush", "type": "online"},
+          {"store": "Target", "url": "https://www.target.com/s?searchTerm=wooden+dish+brush", "type": "online"}
+        ],
+        "eco_score": 95,
+        "eco_breakdown": { "Material": 25, "Reusability": 25, "Lifespan": 25, "Carbon Impact": 20 },
+        "why_eco": "Long-lasting handle with replaceable natural fiber heads. Substantial plastic reduction.",
+        "impact": { "plastic_saved": "15 sponges", "co2_reduction": "0.8kg/yr", "money_saved": "$15/yr" },
+        "image": "https://picsum.photos/id/129/400/300"
+      }
+    ]
+  },
+  "shampoo": {
+    "original_product": "Bottled Liquid Shampoo",
+    "why_not_buy": "You can water down the last 10% of your shampoo bottle to make it last another week!",
+    "alternatives": [
+      {
+        "name": "Solid Shampoo Bar",
+        "type": "Mid-Range Eco Swap",
+        "price_range": "$10 - $15",
+        "base_price": 12,
+        "availability": [
+          {"store": "Amazon", "url": "https://www.amazon.com/s?k=shampoo+bar", "type": "online"},
+          {"store": "Local Pharmacies", "url": "#", "type": "local"}
+        ],
+        "eco_score": 98,
+        "eco_breakdown": { "Material": 30, "Reusability": 10, "Lifespan": 28, "Carbon Impact": 30 },
+        "why_eco": "Requires absolutely no plastic packaging and is highly concentrated (not shipping heavy water).",
+        "impact": { "plastic_saved": "3 bottles/yr", "co2_reduction": "2kg/yr", "money_saved": "$20/yr" },
+        "image": "https://picsum.photos/id/157/400/300"
+      }
+    ]
+  },
+  "razor": {
+    "original_product": "Disposable Plastic Razor",
+    "why_not_buy": "Sharpening disposable razor blades on a pair of old denim jeans dramatically extends their life.",
+    "alternatives": [
+      {
+        "name": "Stainless Steel Safety Razor",
+        "type": "Premium Eco Swap",
+        "price_range": "$25 - $50",
+        "base_price": 30,
+        "availability": [
+          {"store": "Amazon", "url": "https://www.amazon.com/s?k=safety+razor", "type": "online"},
+          {"store": "Specialty Stores", "url": "#", "type": "local"}
+        ],
+        "eco_score": 95,
+        "eco_breakdown": { "Material": 25, "Reusability": 30, "Lifespan": 30, "Carbon Impact": 10 },
+        "why_eco": "Buy the handle once, use it for generations. Blades are fully recyclable metal.",
+        "impact": { "plastic_saved": "50 razors/yr", "co2_reduction": "3kg/yr", "money_saved": "$100/yr" },
+        "image": "https://picsum.photos/id/66/400/300"
+      }
+    ]
+  },
+  "phone case": {
+    "original_product": "Plastic Phone Case",
+    "why_not_buy": "A cracked case can often be repaired with strong glue instead of thrown out.",
+    "alternatives": [
+      {
+        "name": "Compostable Plant-Based Case",
+        "type": "Mid-Range Eco Swap",
+        "price_range": "$20 - $40",
+        "base_price": 35,
+        "availability": [
+          {"store": "Amazon", "url": "https://www.amazon.com/s?k=compostable+phone+case", "type": "online"}
+        ],
+        "eco_score": 92,
+        "eco_breakdown": { "Material": 30, "Reusability": 20, "Lifespan": 20, "Carbon Impact": 22 },
+        "why_eco": "Made from flax shive and bioplastics that break down in a home compost instead of enduring 500 years in a landfill.",
+        "impact": { "plastic_saved": "40g", "co2_reduction": "0.5kg per unit", "money_saved": "$0" },
+        "image": "https://picsum.photos/id/160/400/300"
+      }
+    ]
+  },
+  "pen": {
+    "original_product": "Disposable Plastic Pen",
+    "why_not_buy": "Use up all the disposable pens you currently have before buying eco-alternatives!",
+    "alternatives": [
+      {
+        "name": "Refillable Fountain Pen",
+        "type": "Premium Eco Swap",
+        "price_range": "Premium ($15 - $30)",
+        "base_price": 20,
+        "availability": [
+          {"store": "Amazon", "url": "https://www.amazon.com/s?k=fountain+pen", "type": "online"},
+          {"store": "Local Stationery", "url": "#", "type": "local"}
+        ],
+        "eco_score": 95,
+        "eco_breakdown": { "Material": 25, "Reusability": 30, "Lifespan": 30, "Carbon Impact": 10 },
+        "why_eco": "Buy the steel/brass body once, refill it endlessly from glass bottles of ink, creating zero plastic waste.",
+        "impact": { "plastic_saved": "12 pens/yr", "co2_reduction": "0.4kg/yr", "money_saved": "$15/yr" },
+        "image": "https://picsum.photos/id/366/400/300"
+      },
+      {
+        "name": "Recycled Kraft Paper Pen",
+        "type": "Budget Swap",
+        "price_range": "Budget ($5 - $10)",
+        "base_price": 6,
+        "availability": [
+          {"store": "Amazon", "url": "https://www.amazon.com/s?k=recycled+paper+pens", "type": "online"}
+        ],
+        "eco_score": 88,
+        "eco_breakdown": { "Material": 28, "Reusability": 10, "Lifespan": 15, "Carbon Impact": 20 },
+        "why_eco": "Barrel is made of tightly woven recycled kraft paper instead of virgin plastic.",
+        "impact": { "plastic_saved": "12 pens/yr", "co2_reduction": "0.2kg/yr", "money_saved": "$0" },
+        "image": "https://picsum.photos/id/2/400/300"
+      }
+    ]
+  }
+}

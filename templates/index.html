@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoSwap | Smart Product Recommender</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="app-background"></div>
+    
+    <main class="container">
+        <header>
+            <div class="logo">🌿 Eco<span class="highlight">Swap</span></div>
+            <p class="subtitle">Sustainable choices & creative upcycling</p>
+            
+            <div class="mode-toggle">
+                <button id="modeShop" class="mode-btn active">🛒 Eco-Shop</button>
+                <button id="modeCraft" class="mode-btn">♻️ Upcycle & DIY</button>
+            </div>
+        </header>
+
+        <section class="search-section glass-panel">
+            <h2 id="mainHeading">Find a Sustainable Alternative</h2>
+            <div class="search-wrapper">
+                <input type="text" id="searchInput" placeholder="Enter a product (e.g., watch, toothbrush, bottle)..." autocomplete="off">
+                <input type="file" id="imageUpload" accept="image/*" class="hidden">
+                <button id="uploadBtn" class="icon-btn" title="Search by Image">📸</button>
+                <button id="searchBtn">Discover</button>
+            </div>
+            
+            <div id="sortWrapper" class="sort-wrapper hidden">
+                <label for="sortSelect">Sort By:</label>
+                <select id="sortSelect">
+                    <option value="relevance">Relevance</option>
+                    <option value="priceLow">Price: Low to High</option>
+                    <option value="priceHigh">Price: High to Low</option>
+                    <option value="ecoScore">Eco Score (High to Low)</option>
+                </select>
+            </div>
+            
+            <div class="features-toggles">
+               <span class="badge">📸 Camera Scanner (Beta)</span>
+               <span class="badge">🏆 Eco Challenges</span>
+            </div>
+        </section>
+
+        <!-- Dynamic Results Container -->
+        <section id="resultsContainer" class="results-container hidden">
+            <!-- Loading Spinner -->
+            <div id="loading" class="hidden">Gathering impact metrics...</div>
+            
+            <!-- Error / Empty State -->
+            <div id="errorMessage" class="error hidden"></div>
+            
+            <!-- Results Area -->
+            <div id="resultsContent" class="hidden">
+                 <div class="why-not-buy glass-panel warning-theme" id="whyNotBuySection">
+                     <h3 id="whyNotTitle">✋ Wait! Do you really need to buy this?</h3>
+                     <p id="whyNotBuyText"></p>
+                 </div>
+                 
+                 <h3 class="alternatives-title" id="resultsTitle">Recommended Alternatives</h3>
+                 <div class="alternatives-grid" id="alternativesGrid">
+                    <!-- Cards injected here -->
+                 </div>
+            </div>
+        </section>
+
+        <!-- Location Modal -->
+        <div id="locationModal" class="modal hidden">
+            <div class="modal-content glass-panel">
+                <h3>📍 Finding Local Stores</h3>
+                <p>We are searching Google Maps for sustainable stores near your location...</p>
+                <div class="spinner"></div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
